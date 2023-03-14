@@ -1,0 +1,49 @@
+*{
+    font-family: "Times New Roman";
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: yellow;
+}
+
+p{
+    color: aqua;
+     font-family: sans-serif;
+}
+
+.container {
+    background-color: green;
+    width: 300px;
+    height: 300px;
+}
+
+#rodape{
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+}
+
+#primeiro {
+
+    background-color: aqua;
+    font-size: 10px;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: red;
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+
+#segundo {
+    background-image: url("../img/pato.jpg");
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+}

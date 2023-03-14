@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(130, 231, 198);
+    margin: 5px;
+    padding: 5px;
+}
+
+.enviar {
+    background-color: green;
+    color: white;
+   border-radius: 10px;
+    border-color: black;
+    
+}
+.limpar{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.fieldset1{
+    background-color: rgb(80, 150, 255);
+    padding: 5px;
+    border-radius: 10px;
+    background-image: url("../img/pessoa.png");
+background-size: 50px;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.fieldset2{
+    background-color: rgb(80, 150, 255);
+    padding: 5px;
+    border-radius: 10px;
+    background-image: url("../img/livro.png");
+background-size: 100px;
+background-repeat: no-repeat;
+background-position: center;
+}
+ 
+.titulos{
+    font-size: xx-large;
+}
+
+.minicurriculo{
+    border-radius: 10px;
+    border-color: black;
+}
+
+.areaderesposta{
+    border-radius: 10px;
+    background: rgb(147, 239, 255)
+}
+
+.fontes{
+    font-size: large;
+}
+
+.box{
+    background-color: green;
+    color: green;
+
+}
+
+

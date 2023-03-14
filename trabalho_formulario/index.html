@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloformulario.css">
+
+  
+    <title>Formulários</title>
+</head>
+<body>
+    <h1 class="titles">Formulários</h1>
+    <hr>
+      <fieldset class="fieldset1">
+        <label class=titulos> Dados Pessoais</label>
+    <br>
+    <br>
+  
+    <form>
+      
+        <label class=fontes for="nome">Nome:</label>
+        <input class="areaderesposta" type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+        <br>
+        <br>
+        <label class=fontes for="endereco">Endereço:</label>
+        <input class="areaderesposta" type="text" name="endereco" id="endereco" placeholder="Digite seu endereço...">
+        <br>
+        <br>
+        <label class=fontes for="cidade">Cidade:</label>
+        <input class="areaderesposta" type="text" name="cidade" id="cidade" placeholder="Digite sua cidade...">
+        <br>
+        <br>
+        <label class=fontes for="email">Email:</label>
+        <input class="areaderesposta" type="email" name="email" id="email" placeholder="Digite seu email...">
+        <br>
+        <br>
+        <label class=fontes for="estado">Estado:</label>
+        <select class="areaderesposta" name="estado" id="estado">
+            <option value="sc">Acre</option>
+            <option value="rs">Alagoas</option>
+            <option value="pr">Amapá</option>
+            <option value="sp">Amazonas</option>
+            <option value="rj">Bahia</option>
+            <option value="ac">Ceará</option>
+            <option value="ac">Distrito Federal</option>
+            <option value="sc">Espírito Santo</option>
+            <option value="rs">Goiás</option>
+            <option value="pr">Maranhão</option>
+            <option value="sp">Mato Grosso</option>
+            <option value="rj">Mato Grosso do Sul</option>
+            <option value="ac">Minas Gerais</option>
+            <option value="ac">Pará</option>
+            <option value="sc">Paraíba</option>
+            <option value="rs">Paraná</option>
+            <option value="pr">Pernambuco</option>
+            <option value="sp">Piauí</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="ac">Rio Grnade do Norte</option>
+            <option value="ac">Rio Grande do Sul</option>
+            <option value="sc">Rondônia</option>
+            <option value="rs">Roraima</option>
+            <option value="pr">Santa Catarina</option>
+            <option value="sp">São Pulo</option>
+            <option value="rj">Sergipe</option>
+            <option value="ac">Tocantins</option>
+            <br>
+            <br>
+            <br>
+        </select>
+        </fieldset>
+        <br>
+        <hr>
+        <br>
+        <fieldset class="fieldset2">
+            <label class=titulos> Dados Profissionais</label>
+        <br>
+        <br>
+        <label class=fontes for="opcao">Natureza do cargo</label>
+        <br>
+        <input type="radio" name="opcao">Gerência
+        <input type="radio" name="opcao">Financeiro
+        <input type="radio" name="opcao">Recepção
+        <input type="radio" name="opcao">Administrativo
+        <input type="radio" name="opcao">Jurídico
+        <br>
+        <br>
+        <label class=fontes for="areas">Áreas de interesse</label>
+            <br>
+
+            <input type="checkbox" name="computacao" id="computcao">Computação
+            <input type="checkbox" name="biologia" id="biologia">Biologia
+            <input type="checkbox" name="meio ambiente" id="meio ambiente">Meio Ambiente
+            <input type="checkbox" name="engenharia" id="engenharia">Engenharia
+            <input type="checkbox" name="historia" id="historia">História
+            <br>
+            <br>
+            <label class=fontes for="area">Mini currículo:</label>
+            <br>
+            <textarea class="minicurriculo" name="area" id="area" cols="30" rows="10" placeholder="Espaço para produzir seu Mini Currículo..."></textarea>
+            </fieldset>
+            <br>
+             <input class=enviar type="submit" value="enviar">
+             <input class=limpar type="reset" value="limpar">
+
+    </form>
+</body>
+</html>

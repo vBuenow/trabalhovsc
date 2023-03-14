@@ -1,0 +1,45 @@
+body, html{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.conteudo{
+    text-align: center;
+
+  
+}
+
+.card{
+   background-color: white;
+   width: 100px;
+   margin: 10px;
+   text-align: center;
+   line-height: 75px;
+   font-size: 30px;
+   
+
+}
+
+.card1,.card2,.card3,.card4{
+    display: inline-block;
+    width: 100px;
+    height:100px;
+}
+
+.card1{
+    background-color: red;
+ 
+}
+
+.card2{
+    background-color: yellow;
+}
+
+.card3{
+    background-color: purple;
+}
+
+.card4{
+    background-color: aquamarine;
+}
