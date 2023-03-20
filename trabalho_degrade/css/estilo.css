@@ -1,0 +1,28 @@
+body{
+    margin: 5px;
+    padding: 5px;
+}
+
+.texto{
+    color: green;
+}
+
+.fieldset{
+    background-image: linear-gradient(white,rgb(42, 211, 42));
+}
+.fieldset01{
+    background-image: linear-gradient(pink, rgb(252, 109, 133));
+}
+.texto01{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+.texto02{
+    color:rgb(0, 94, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    
+}

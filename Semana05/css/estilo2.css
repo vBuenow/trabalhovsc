@@ -1,0 +1,19 @@
+img{
+    width: 200px;
+    float: right;
+}
+
+article{
+    top: 150px;
+    left: 150px;
+    background-color: rgb(243, 163, 163);
+}
+
+.container{
+    width:800px;
+    margin: 0 auto;
+}
+
+.LimpaFloat{
+    clear: right;
+}
