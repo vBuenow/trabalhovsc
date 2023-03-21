@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("../img/fundonetflix.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+ 
+  
+  
+
+}
+
+#heading{
+    background-color: rgba(0,0,0,0.8);
+   
+}
+
+#heading div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+ 
+}
+
+#heading h1{
+    padding: 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#heading a{
+    color:aliceblue;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.logo {
+    width: 175px;
+   
+}
+#heading .h1{
+ margin-top: 15px;
+ margin-bottom: 0;
+}
+
+.botao{
+    background: red;
+    padding: 8px;
+    margin-top: right;
+    border-radius: 7px;
+
+}
+.botao2 {
+    background: red;
+    padding: 8px;
+    margin-top: right;
+    border-radius: 7px;
+}
+
+
+
+
+
+.selecao{
+    width: 100px;
+    height:30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-radius: 7px;
+ 
+
+}
+
+.corpo{
+    margin: 200px;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: radial-gradient(to top,rgba(0, 0, 0, 0.8)0, rgba(0, 0, 0, 0)60%, rgba(0, 0, 0, 0.8) 100%);
+  
+}
+
+.label{
+    padding: 5px;
+    width: 500px;
+    height: 30px;
+    color: white;
+    margin-top: auto;
+    background-color: rgb(92, 92, 92);
+    opacity: calc(80%);
+    
+}
+
